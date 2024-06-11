@@ -1,0 +1,36 @@
+/* Archivo de estilos CSS */
+
+.boton-iniciar {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-family: "Times New Roman";
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+}
+
+.boton-regresar {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-family: "Times New Roman";
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+}
+
+.boton-perfil {
+    -fx-background-color: #FFA500;
+    -fx-text-fill: white;
+    -fx-font-family: "Times New Roman";
+    -fx-font-weight: bold;
+    -fx-font-size: 10px;
+}
+
+.titulo-juego {
+    -fx-font-family: "Computerfont";
+    -fx-font-size: 70px;
+}
+
+.subtitulo-juego {
+    -fx-font-family: "Times New Roman";
+    -fx-font-weight: bold;
+    -fx-font-size: 9px;
+}

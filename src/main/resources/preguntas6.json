@@ -1,0 +1,687 @@
+[
+  {
+    "questionText": "¿Cuántos lados tiene un triángulo equilátero?",
+    "answers": ["3", "4", "5", "6"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuántos lados tiene un cuadrado?",
+    "answers": ["3", "4", "5", "6"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "questionText": "¿Cuál es la suma de los ángulos internos de un triángulo?",
+    "answers": ["90 grados", "180 grados", "270 grados", "360 grados"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "questionText": "¿Cómo se llama un polígono de cinco lados?",
+    "answers": ["Pentágono", "Hexágono", "Heptágono", "Octágono"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuántas caras tiene un cubo?",
+    "answers": ["4", "6", "8", "12"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "questionText": "¿Cómo se llama una línea recta que divide un círculo en dos partes iguales?",
+    "answers": ["Radio", "Cuerda", "Diámetro", "Tangente"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "questionText": "¿Cuál es la fórmula para calcular el área de un triángulo?",
+    "answers": ["Base * Altura", "(Base * Altura) / 2", "Lado * Lado", "Base * Altura * 2"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "questionText": "¿Cuántos vértices tiene un cubo?",
+    "answers": ["4", "6", "8", "12"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "questionText": "¿Cómo se llama un triángulo con todos sus lados iguales?",
+    "answers": ["Isósceles", "Equilátero", "Escaleno", "Rectángulo"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "questionText": "¿Cuál es la fórmula para calcular el perímetro de un rectángulo?",
+    "answers": ["Largo + Ancho", "2 * (Largo + Ancho)", "Largo * Ancho", "Lado * 4"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "questionText": "¿Cuál es la fórmula general de la ecuación cuadrática?",
+    "answers": ["ax^2 + bx + c = 0", "ax^3 + bx^2 + cx + d = 0", "ax + b = 0", "ax^2 + bx = c"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cómo se llama una expresión algebraica que consta de un solo término?",
+    "answers": ["Monomio", "Binomio", "Trinomio", "Polinomio"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es una ecuación lineal?",
+    "answers": ["Una ecuación que se puede representar mediante una línea recta", "Una ecuación que contiene una variable elevada a la segunda potencia", "Una ecuación que contiene una variable elevada a la tercera potencia", "Una ecuación que no tiene solución"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la propiedad distributiva de la multiplicación sobre la suma?",
+    "answers": ["a(b + c) = ab + ac", "(a + b) + c = a + (b + c)", "a + b = b + a", "a * b = b * a"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es un sistema de ecuaciones?",
+    "answers": ["Un conjunto de dos o más ecuaciones que se resuelven simultáneamente", "Una ecuación que solo tiene una solución", "Una ecuación que no tiene solución", "Una ecuación que tiene infinitas soluciones"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cómo se llama una expresión algebraica que consta de dos términos?",
+    "answers": ["Binomio", "Monomio", "Trinomio", "Polinomio"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es una desigualdad?",
+    "answers": ["Una relación matemática que compara dos expresiones utilizando signos como <, >, ≤ o ≥", "Una ecuación que solo tiene una solución", "Una ecuación que no tiene solución", "Una ecuación que tiene infinitas soluciones"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la fórmula para calcular el área de un rectángulo?",
+    "answers": ["Largo * Ancho", "Lado * Lado", "(Base * Altura) / 2", "Diagonal * Diagonal"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es una función?",
+    "answers": ["Una relación matemática que asigna a cada elemento de un conjunto (dominio) un único elemento de otro conjunto (rango)", "Una ecuación que solo tiene una solución", "Una ecuación que no tiene solución", "Una ecuación que tiene infinitas soluciones"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la pendiente de una línea recta?",
+    "answers": ["La inclinación de la línea", "La intersección con el eje y", "La intersección con el eje x", "La longitud de la línea"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es un polinomio?",
+    "answers": ["Una expresión algebraica que consta de uno o más términos", "Una ecuación que solo tiene una solución", "Una ecuación que no tiene solución", "Una ecuación que tiene infinitas soluciones"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es el grado de un polinomio?",
+    "answers": ["El mayor exponente de la variable en el polinomio", "El número de términos en el polinomio", "El coeficiente del término principal", "La constante en el polinomio"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es una factorización?",
+    "answers": ["El proceso de escribir un número o expresión algebraica como producto de sus factores", "El proceso de sumar dos o más expresiones algebraicas", "El proceso de restar dos o más expresiones algebraicas", "El proceso de dividir dos o más expresiones algebraicas"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la fórmula para resolver una ecuación de primer grado?",
+    "answers": ["x = (c - b) / a", "x = -b / (2a)", "x = (-b ± √(b^2 - 4ac)) / (2a)", "x = c / a"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es una ecuación cuadrática?",
+    "answers": ["Una ecuación que contiene una variable elevada a la segunda potencia", "Una ecuación que se puede representar mediante una línea recta", "Una ecuación que contiene una variable elevada a la tercera potencia", "Una ecuación que no tiene solución"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la fórmula general para resolver una ecuación cuadrática?",
+    "answers": ["x = (-b ± √(b^2 - 4ac)) / (2a)", "x = (c - b) / a", "x = -b / (2a)", "x = c / a"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es un sistema de ecuaciones lineales?",
+    "answers": ["Un conjunto de dos o más ecuaciones lineales que se resuelven simultáneamente", "Una ecuación que solo tiene una solución", "Una ecuación que no tiene solución", "Una ecuación que tiene infinitas soluciones"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es un determinante?",
+    "answers": ["Un valor asociado a una matriz cuadrada", "Un número que indica la inclinación de una línea recta", "Un punto donde una gráfica interseca el eje x", "Un punto donde una gráfica interseca el eje y"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es una matriz?",
+    "answers": ["Una disposición rectangular de números o expresiones algebraicas", "Una ecuación que solo tiene una solución", "Una ecuación que no tiene solución", "Una ecuación que tiene infinitas soluciones"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es un vector?",
+    "answers": ["Una cantidad que tiene magnitud y dirección", "Un número que indica la inclinación de una línea recta", "Un punto donde una gráfica interseca el eje x", "Un punto donde una gráfica interseca el eje y"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es un espacio vectorial?",
+    "answers": ["Un conjunto de vectores que satisface ciertas propiedades", "Una ecuación que solo tiene una solución", "Una ecuación que no tiene solución", "Una ecuación que tiene infinitas soluciones"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es una transformación lineal?",
+    "answers": ["Una función que mapea vectores a otros vectores preservando las operaciones de suma de vectores y multiplicación por escalares", "Una ecuación que solo tiene una solución", "Una ecuación que no tiene solución", "Una ecuación que tiene infinitas soluciones"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la función trigonométrica opuesta al seno?",
+    "answers": ["Cosecante", "Coseno", "Tangente", "Secante"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la relación fundamental de la trigonometría?",
+    "answers": ["Seno^2 + Coseno^2 = 1", "Seno * Coseno = 1", "Tangente = Seno / Coseno", "Coseno / Seno = Tangente"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la función trigonométrica opuesta al coseno?",
+    "answers": ["Secante", "Seno", "Tangente", "Cotangente"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la función trigonométrica opuesta a la tangente?",
+    "answers": ["Cotangente", "Seno", "Coseno", "Secante"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿En qué cuadrante el seno es positivo y el coseno es negativo?",
+    "answers": ["Segundo cuadrante", "Primer cuadrante", "Tercer cuadrante", "Cuarto cuadrante"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es el valor de sen(30°)?",
+    "answers": ["1/2", "√3/2", "1", "0"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es el valor de cos(60°)?",
+    "answers": ["1/2", "√3/2", "1", "0"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es el valor de tan(45°)?",
+    "answers": ["1", "√3", "1/√3", "0"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la fórmula del seno de la suma de dos ángulos?",
+    "answers": ["sen(α + β) = sen(α)cos(β) + cos(α)sen(β)", "sen(α + β) = sen(α)sen(β) + cos(α)cos(β)", "sen(α + β) = sen(α)cos(β) - cos(α)sen(β)", "sen(α + β) = cos(α)cos(β) - sen(α)sen(β)"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la fórmula del coseno de la diferencia de dos ángulos?",
+    "answers": ["cos(α - β) = cos(α)cos(β) + sen(α)sen(β)", "cos(α - β) = cos(α)cos(β) - sen(α)sen(β)", "cos(α - β) = sen(α)cos(β) + cos(α)sen(β)", "cos(α - β) = sen(α)sen(β) - cos(α)cos(β)"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la ley de los senos?",
+    "answers": ["a/sen(A) = b/sen(B) = c/sen(C)", "a^2 = b^2 + c^2 - 2bc*cos(A)", "c^2 = a^2 + b^2", "tan(A) = a/b"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la ley de los cosenos?",
+    "answers": ["a^2 = b^2 + c^2 - 2bc*cos(A)", "a/sen(A) = b/sen(B) = c/sen(C)", "c^2 = a^2 + b^2", "tan(A) = a/b"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la identidad trigonométrica para tan(α) en términos de seno y coseno?",
+    "answers": ["tan(α) = sen(α)/cos(α)", "tan(α) = cos(α)/sen(α)", "tan(α) = 1/sen(α)", "tan(α) = 1/cos(α)"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la identidad trigonométrica para cot(α) en términos de seno y coseno?",
+    "answers": ["cot(α) = cos(α)/sen(α)", "cot(α) = sen(α)/cos(α)", "cot(α) = 1/sen(α)", "cot(α) = 1/cos(α)"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es el período de la función y = sen(x)?",
+    "answers": ["2π", "π", "π/2", "π/4"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es el período de la función y = cos(x)?",
+    "answers": ["2π", "π", "π/2", "π/4"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es el período de la función y = tan(x)?",
+    "answers": ["π", "2π", "π/2", "π/4"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la amplitud de la función y = 2sen(x)?",
+    "answers": ["2", "1", "π", "2π"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la amplitud de la función y = -cos(x)?",
+    "answers": ["1", "-1", "π", "2π"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es el ángulo de referencia para 150°?",
+    "answers": ["30°", "60°", "45°", "90°"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es el ángulo de referencia para -45°?",
+    "answers": ["45°", "30°", "60°", "90°"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la identidad trigonométrica para sen(2α)?",
+    "answers": ["sen(2α) = 2sen(α)cos(α)", "sen(2α) = cos^2(α) - sen^2(α)", "sen(2α) = 1 - 2sen^2(α)", "sen(2α) = 2cos^2(α) - 1"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la identidad trigonométrica para cos(2α)?",
+    "answers": ["cos(2α) = cos^2(α) - sen^2(α)", "cos(2α) = 2sen(α)cos(α)", "cos(2α) = 1 - 2sen^2(α)", "cos(2α) = 2cos^2(α) - 1"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué medida estadística representa mejor la tendencia central de un conjunto de datos?",
+    "answers": ["Media", "Mediana", "Moda", "Desviación estándar"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué representa la desviación estándar en estadística?",
+    "answers": ["Variabilidad", "Tendencia central", "Dispersión", "Correlación"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "questionText": "¿Qué medida estadística se usa para describir la dispersión de un conjunto de datos?",
+    "answers": ["Desviación estándar", "Media", "Mediana", "Moda"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la diferencia entre la media y la mediana?",
+    "answers": ["La media es el promedio, mientras que la mediana es el valor del medio", "La media es el valor del medio, mientras que la mediana es el promedio", "La media se ve afectada por valores atípicos, mientras que la mediana no", "La media no se ve afectada por valores atípicos, mientras que la mediana sí"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es un histograma?",
+    "answers": ["Un gráfico de barras que muestra la frecuencia de datos", "Un gráfico circular que muestra las proporciones de datos", "Un gráfico de líneas que muestra la tendencia de los datos", "Un diagrama de dispersión que muestra la relación entre dos variables"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es la probabilidad?",
+    "answers": ["La medida de la posibilidad de que ocurra un evento", "La frecuencia con la que ocurre un evento", "El número de veces que ocurre un evento", "La seguridad de que ocurra un evento"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es una variable aleatoria?",
+    "answers": ["Una variable cuyo valor es un resultado numérico de un fenómeno aleatorio", "Una variable cuyo valor es constante", "Una variable que no se puede medir", "Una variable que solo puede tomar dos valores"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es una distribución normal?",
+    "answers": ["Una distribución de probabilidad simétrica en forma de campana", "Una distribución de probabilidad asimétrica", "Una distribución de probabilidad uniforme", "Una distribución de probabilidad binomial"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es un intervalo de confianza?",
+    "answers": ["Un rango de valores que probablemente contiene el valor real de un parámetro de población", "Un valor único que estima un parámetro de población", "La probabilidad de que un evento ocurra", "La diferencia entre dos medias muestrales"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es una prueba de hipótesis?",
+    "answers": ["Un procedimiento estadístico para probar una afirmación sobre una población", "Un método para recopilar datos", "Una forma de describir datos", "Una medida de la fuerza de la relación entre dos variables"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es una correlación?",
+    "answers": ["Una medida de la fuerza y dirección de la relación lineal entre dos variables", "La diferencia entre dos medias muestrales", "La probabilidad de que un evento ocurra", "Un rango de valores que probablemente contiene el valor real de un parámetro de población"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es una regresión?",
+    "answers": ["Una técnica estadística para modelar la relación entre una variable dependiente y una o más variables independientes", "Un método para recopilar datos", "Una forma de describir datos", "Una medida de la fuerza de la relación entre dos variables"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es un muestreo aleatorio simple?",
+    "answers": ["Un método de muestreo en el que cada miembro de la población tiene la misma probabilidad de ser seleccionado", "Un método de muestreo en el que los miembros de la población se seleccionan en función de su disponibilidad", "Un método de muestreo en el que los miembros de la población se seleccionan en función de las características que poseen", "Un método de muestreo en el que los miembros de la población se seleccionan al azar de grupos predefinidos"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es un sesgo en estadística?",
+    "answers": ["Una tendencia sistemática en los datos que lleva a una estimación inexacta de un parámetro de población", "Una variación aleatoria en los datos", "La precisión de una estimación", "La fuerza de la relación entre dos variables"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es una muestra representativa?",
+    "answers": ["Una muestra que refleja con precisión las características de la población de la que se extrajo", "Una muestra que es demasiado pequeña para ser representativa", "Una muestra que se seleccionó utilizando un método de muestreo sesgado", "Una muestra que no se seleccionó al azar"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es la varianza?",
+    "answers": ["Una medida de la dispersión de los datos alrededor de la media", "El valor más frecuente en un conjunto de datos", "El valor del medio en un conjunto de datos", "La diferencia entre el valor más alto y el más bajo en un conjunto de datos"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es un percentil?",
+    "answers": ["Un valor por debajo del cual se encuentra un porcentaje determinado de observaciones", "El valor más frecuente en un conjunto de datos", "El valor del medio en un conjunto de datos", "La diferencia entre el valor más alto y el más bajo en un conjunto de datos"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es una distribución de frecuencia?",
+    "answers": ["Una tabla que muestra la frecuencia de diferentes valores en un conjunto de datos", "Un gráfico de barras que muestra la frecuencia de datos", "Un gráfico circular que muestra las proporciones de datos", "Un gráfico de líneas que muestra la tendencia de los datos"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es un diagrama de caja?",
+    "answers": ["Un gráfico que muestra la distribución de los datos mediante cuartiles", "Un gráfico de barras que muestra la frecuencia de datos", "Un gráfico circular que muestra las proporciones de datos", "Un gráfico de líneas que muestra la tendencia de los datos"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es la covarianza?",
+    "answers": ["Una medida de la variación conjunta de dos variables aleatorias", "La diferencia entre dos medias muestrales", "La probabilidad de que un evento ocurra", "Un rango de valores que probablemente contiene el valor real de un parámetro de población"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es el coeficiente de correlación de Pearson?",
+    "answers": ["Una medida de la fuerza y dirección de la relación lineal entre dos variables que varían entre -1 y 1", "La diferencia entre dos medias muestrales", "La probabilidad de que un evento ocurra", "Un rango de valores que probablemente contiene el valor real de un parámetro de población"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es una prueba t de Student?",
+    "answers": ["Una prueba de hipótesis que se utiliza para comparar las medias de dos grupos", "Un procedimiento estadístico para probar una afirmación sobre una población", "Un método para recopilar datos", "Una medida de la fuerza de la relación entre dos variables"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es un análisis de varianza (ANOVA)?",
+    "answers": ["Una prueba estadística que se utiliza para comparar las medias de tres o más grupos", "Un procedimiento estadístico para probar una afirmación sobre una población", "Un método para recopilar datos", "Una medida de la fuerza de la relación entre dos variables"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la fórmula para calcular el área de un cuadrado?",
+    "answers": ["Lado * Lado", "Lado * Altura", "Base * Altura", "Diagonal * Diagonal"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es una desigualdad?",
+    "answers": ["Una relación matemática que compara dos expresiones utilizando signos como <, >, ≤ o ≥", "Una ecuación que solo tiene una solución", "Una ecuación que no tiene solución", "Una ecuación que tiene infinitas soluciones"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es una función?",
+    "answers": ["Una relación matemática que asigna a cada elemento de un conjunto (dominio) un único elemento de otro conjunto (rango)", "Una ecuación que solo tiene una solución", "Una ecuación que no tiene solución", "Una ecuación que tiene infinitas soluciones"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la pendiente de una línea recta?",
+    "answers": ["La inclinación de la línea", "La intersección con el eje y", "La intersección con el eje x", "La longitud de la línea"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la fórmula para resolver una ecuación de primer grado?",
+    "answers": ["x = (c - b) / a", "x = -b / (2a)", "x = (-b ± √(b^2 - 4ac)) / (2a)", "x = c / a"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es un polinomio?",
+    "answers": ["Una expresión algebraica que consta de uno o más términos", "Una ecuación que solo tiene una solución", "Una ecuación que no tiene solución", "Una ecuación que tiene infinitas soluciones"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es el grado de un polinomio?",
+    "answers": ["El mayor exponente de la variable en el polinomio", "El número de términos en el polinomio", "El coeficiente del término principal", "La constante en el polinomio"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es una desigualdad?",
+    "answers": ["Una relación matemática que compara dos expresiones utilizando signos como <, >, ≤ o ≥", "Una ecuación que solo tiene una solución", "Una ecuación que no tiene solución", "Una ecuación que tiene infinitas soluciones"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es una función?",
+    "answers": ["Una relación matemática que asigna a cada elemento de un conjunto (dominio) un único elemento de otro conjunto (rango)", "Una ecuación que solo tiene una solución", "Una ecuación que no tiene solución", "Una ecuación que tiene infinitas soluciones"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la pendiente de una línea recta?",
+    "answers": ["La inclinación de la línea", "La intersección con el eje y", "La intersección con el eje x", "La longitud de la línea"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la fórmula para resolver una ecuación de primer grado?",
+    "answers": ["x = (c - b) / a", "x = -b / (2a)", "x = (-b ± √(b^2 - 4ac)) / (2a)", "x = c / a"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es un polinomio?",
+    "answers": ["Una expresión algebraica que consta de uno o más términos", "Una ecuación que solo tiene una solución", "Una ecuación que no tiene solución", "Una ecuación que tiene infinitas soluciones"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es el grado de un polinomio?",
+    "answers": ["El mayor exponente de la variable en el polinomio", "El número de términos en el polinomio", "El coeficiente del término principal", "La constante en el polinomio"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es una desigualdad?",
+    "answers": ["Una relación matemática que compara dos expresiones utilizando signos como <, >, ≤ o ≥", "Una ecuación que solo tiene una solución", "Una ecuación que no tiene solución", "Una ecuación que tiene infinitas soluciones"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es una función?",
+    "answers": ["Una relación matemática que asigna a cada elemento de un conjunto (dominio) un único elemento de otro conjunto (rango)", "Una ecuación que solo tiene una solución", "Una ecuación que no tiene solución", "Una ecuación que tiene infinitas soluciones"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la pendiente de una línea recta?",
+    "answers": ["La inclinación de la línea", "La intersección con el eje y", "La intersección con el eje x", "La longitud de la línea"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la fórmula para resolver una ecuación de primer grado?",
+    "answers": ["x = (c - b) / a", "x = -b / (2a)", "x = (-b ± √(b^2 - 4ac)) / (2a)", "x = c / a"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es un polinomio?",
+    "answers": ["Una expresión algebraica que consta de uno o más términos", "Una ecuación que solo tiene una solución", "Una ecuación que no tiene solución", "Una ecuación que tiene infinitas soluciones"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es el grado de un polinomio?",
+    "answers": ["El mayor exponente de la variable en el polinomio", "El número de términos en el polinomio", "El coeficiente del término principal", "La constante en el polinomio"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es el valor de cos(60°)?",
+    "answers": ["1/2", "√3/2", "1", "0"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es el valor de tan(45°)?",
+    "answers": ["1", "√3", "1/√3", "0"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la fórmula del seno de la suma de dos ángulos?",
+    "answers": ["sen(α + β) = sen(α)cos(β) + cos(α)sen(β)", "sen(α + β) = sen(α)sen(β) + cos(α)cos(β)", "sen(α + β) = sen(α)cos(β) - cos(α)sen(β)", "sen(α + β) = cos(α)cos(β) - sen(α)sen(β)"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la fórmula del coseno de la diferencia de dos ángulos?",
+    "answers": ["cos(α - β) = cos(α)cos(β) + sen(α)sen(β)", "cos(α - β) = cos(α)cos(β) - sen(α)sen(β)", "cos(α - β) = sen(α)cos(β) + cos(α)sen(β)", "cos(α - β) = sen(α)sen(β) - cos(α)cos(β)"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la ley de los senos?",
+    "answers": ["a/sen(A) = b/sen(B) = c/sen(C)", "a^2 = b^2 + c^2 - 2bc*cos(A)", "c^2 = a^2 + b^2", "tan(A) = a/b"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la ley de los cosenos?",
+    "answers": ["a^2 = b^2 + c^2 - 2bc*cos(A)", "a/sen(A) = b/sen(B) = c/sen(C)", "c^2 = a^2 + b^2", "tan(A) = a/b"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la identidad trigonométrica para tan(α) en términos de seno y coseno?",
+    "answers": ["tan(α) = sen(α)/cos(α)", "tan(α) = cos(α)/sen(α)", "tan(α) = 1/sen(α)", "tan(α) = 1/cos(α)"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la identidad trigonométrica para cot(α) en términos de seno y coseno?",
+    "answers": ["cot(α) = cos(α)/sen(α)", "cot(α) = sen(α)/cos(α)", "cot(α) = 1/sen(α)", "cot(α) = 1/cos(α)"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es el período de la función y = sen(x)?",
+    "answers": ["2π", "π", "π/2", "π/4"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es el período de la función y = cos(x)?",
+    "answers": ["2π", "π", "π/2", "π/4"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es el período de la función y = tan(x)?",
+    "answers": ["π", "2π", "π/2", "π/4"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la amplitud de la función y = 2sen(x)?",
+    "answers": ["2", "1", "π", "2π"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la amplitud de la función y = -cos(x)?",
+    "answers": ["1", "-1", "π", "2π"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es el ángulo de referencia para 150°?",
+    "answers": ["30°", "60°", "45°", "90°"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es el ángulo de referencia para -45°?",
+    "answers": ["45°", "30°", "60°", "90°"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la identidad trigonométrica para sen(2α)?",
+    "answers": ["sen(2α) = 2sen(α)cos(α)", "sen(2α) = cos^2(α) - sen^2(α)", "sen(2α) = 1 - 2sen^2(α)", "sen(2α) = 2cos^2(α) - 1"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la identidad trigonométrica para cos(2α)?",
+    "answers": ["cos(2α) = cos^2(α) - sen^2(α)", "cos(2α) = 2sen(α)cos(α)", "cos(2α) = 1 - 2sen^2(α)", "cos(2α) = 2cos^2(α) - 1"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué medida estadística representa mejor la tendencia central de un conjunto de datos?",
+    "answers": ["Media", "Mediana", "Moda", "Desviación estándar"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué representa la desviación estándar en estadística?",
+    "answers": ["Variabilidad", "Tendencia central", "Dispersión", "Correlación"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "questionText": "¿Qué medida estadística se usa para describir la dispersión de un conjunto de datos?",
+    "answers": ["Desviación estándar", "Media", "Mediana", "Moda"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuál es la diferencia entre la media y la mediana?",
+    "answers": ["La media es el promedio, mientras que la mediana es el valor del medio", "La media es el valor del medio, mientras que la mediana es el promedio", "La media se ve afectada por valores atípicos, mientras que la mediana no", "La media no se ve afectada por valores atípicos, mientras que la mediana sí"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es un histograma?",
+    "answers": ["Un gráfico de barras que muestra la frecuencia de datos", "Un gráfico circular que muestra las proporciones de datos", "Un gráfico de líneas que muestra la tendencia de los datos", "Un diagrama de dispersión que muestra la relación entre dos variables"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es la probabilidad?",
+    "answers": ["La medida de la posibilidad de que ocurra un evento", "La frecuencia con la que ocurre un evento", "El número de veces que ocurre un evento", "La seguridad de que ocurra un evento"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es una variable aleatoria?",
+    "answers": ["Una variable cuyo valor es un resultado numérico de un fenómeno aleatorio", "Una variable cuyo valor es constante", "Una variable que no se puede medir", "Una variable que solo puede tomar dos valores"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es una distribución normal?",
+    "answers": ["Una distribución de probabilidad simétrica en forma de campana", "Una distribución de probabilidad asimétrica", "Una distribución de probabilidad uniforme", "Una distribución de probabilidad binomial"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es un intervalo de confianza?",
+    "answers": ["Un rango de valores que probablemente contiene el valor real de un parámetro de población", "Un valor único que estima un parámetro de población", "La probabilidad de que un evento ocurra", "La diferencia entre dos medias muestrales"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es una prueba de hipótesis?",
+    "answers": ["Un procedimiento estadístico para probar una afirmación sobre una población", "Un método para recopilar datos", "Una forma de describir datos", "Una medida de la fuerza de la relación entre dos variables"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es una correlación?",
+    "answers": ["Una medida de la fuerza y dirección de la relación lineal entre dos variables", "La diferencia entre dos medias muestrales", "La probabilidad de que un evento ocurra", "Un rango de valores que probablemente contiene el valor real de un parámetro de población"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es una regresión?",
+    "answers": ["Una técnica estadística para modelar la relación entre una variable dependiente y una o más variables independientes", "Un método para recopilar datos", "Una forma de describir datos", "Una medida de la fuerza de la relación entre dos variables"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es un muestreo aleatorio simple?",
+    "answers": ["Un método de muestreo en el que cada miembro de la población tiene la misma probabilidad de ser seleccionado", "Un método de muestreo en el que los miembros de la población se seleccionan en función de su disponibilidad", "Un método de muestreo en el que los miembros de la población se seleccionan en función de las características que poseen", "Un método de muestreo en el que los miembros de la población se seleccionan al azar de grupos predefinidos"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es un sesgo en estadística?",
+    "answers": ["Una tendencia sistemática en los datos que lleva a una estimación inexacta de un parámetro de población", "Una variación aleatoria en los datos", "La precisión de una estimación", "La fuerza de la relación entre dos variables"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es una muestra representativa?",
+    "answers": ["Una muestra que refleja con precisión las características de la población de la que se extrajo", "Una muestra que es demasiado pequeña para ser representativa", "Una muestra que se seleccionó utilizando un método de muestreo sesgado", "Una muestra que no se seleccionó al azar"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es la varianza?",
+    "answers": ["Una medida de la dispersión de los datos alrededor de la media", "El valor más frecuente en un conjunto de datos", "El valor del medio en un conjunto de datos", "La diferencia entre el valor más alto y el más bajo en un conjunto de datos"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es un percentil?",
+    "answers": ["Un valor por debajo del cual se encuentra un porcentaje determinado de observaciones", "El valor más frecuente en un conjunto de datos", "El valor del medio en un conjunto de datos", "La diferencia entre el valor más alto y el más bajo en un conjunto de datos"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es una distribución de frecuencia?",
+    "answers": ["Una tabla que muestra la frecuencia de diferentes valores en un conjunto de datos", "Un gráfico de barras que muestra la frecuencia de datos", "Un gráfico circular que muestra las proporciones de datos", "Un gráfico de líneas que muestra la tendencia de los datos"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es un diagrama de caja?",
+    "answers": ["Un gráfico que muestra la distribución de los datos mediante cuartiles", "Un gráfico de barras que muestra la frecuencia de datos", "Un gráfico circular que muestra las proporciones de datos", "Un gráfico de líneas que muestra la tendencia de los datos"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es la covarianza?",
+    "answers": ["Una medida de la variación conjunta de dos variables aleatorias", "La diferencia entre dos medias muestrales", "La probabilidad de que un evento ocurra", "Un rango de valores que probablemente contiene el valor real de un parámetro de población"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es el coeficiente de correlación de Pearson?",
+    "answers": ["Una medida de la fuerza y dirección de la relación lineal entre dos variables que varían entre -1 y 1", "La diferencia entre dos medias muestrales", "La probabilidad de que un evento ocurra", "Un rango de valores que probablemente contiene el valor real de un parámetro de población"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es una prueba t de Student?",
+    "answers": ["Una prueba de hipótesis que se utiliza para comparar las medias de dos grupos", "Un procedimiento estadístico para probar una afirmación sobre una población", "Un método para recopilar datos", "Una medida de la fuerza de la relación entre dos variables"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Qué es un análisis de varianza (ANOVA)?",
+    "answers": ["Una prueba estadística que se utiliza para comparar las medias de tres o más grupos", "Un procedimiento estadístico para probar una afirmación sobre una población", "Un método para recopilar datos", "Una medida de la fuerza de la relación entre dos variables"],
+    "correctAnswerIndex": 0
+  }
+]
