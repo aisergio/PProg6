@@ -1,0 +1,9 @@
+language = "java"
+run = "mvn clean compile exec:java -Dexec.mainClass=geomate.Main"
+
+[nix]
+channel = "stable-23_11"
+
+[deployment]
+run = ["sh", "-c", "mvn clean compile exec:java -Dexec.mainClass=geomate.Main"]
+
