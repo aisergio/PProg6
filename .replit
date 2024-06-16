@@ -1,0 +1,8 @@
+language = "java"
+run = "mvn clean compile exec:java -Dexec.mainClass=geomate.Main -Dprism.order=sw"
+
+[nix]
+channel = "stable-23_11"
+
+[deployment]
+run = "mvn clean compile exec:java -Dexec.mainClass=geomate.Main -Dprism.order=sw"
