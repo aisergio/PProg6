@@ -1,0 +1,14 @@
+compile = "javac --module-path javafx-sdk-23/lib --add-modules javafx.controls,javafx.fxml,javafx.swing,javafx.graphics,javafx.media,javafx.web src/main/java/geomate/Main.java"
+run = "java --module-path javafx-sdk-23/lib --add-modules javafx.controls,javafx.fxml,javafx.swing,javafx.graphics,javafx.media,javafx.web src/main/java/geomate/Main"
+
+entrypoint = "src/main/java/geomate/Main.java"
+hidden = ["**/*.class", "javafx-sdk-23"]
+
+[unitTest]
+language = "java"
+
+[nix]
+channel = "stable-23_11"
+
+language = "java"
+
