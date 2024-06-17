@@ -111,26 +111,6 @@
             </plugin>
 
             <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>exec-maven-plugin</artifactId>
-                <version>3.3.0</version>
-                <configuration>
-                    <mainClass>geomate.Main</mainClass>
-                    <executable>java</executable> 
-                    <arguments>
-                        <argument>-Dprism.order=sw</argument>
-                        <argument>--module-path</argument>
-                        <argument>${java.home}/jmods:${project.build.directory}/modules</argument>
-                        <argument>--add-modules</argument>
-            <argument>javafx.controls,javafx.fxml,javafx.swing,javafx.graphics,javafx.media,javafx.web</argument>
-                        <argument>--add-exports</argument>
-                        <argument>javafx.graphics/com.sun.javafx.sg.prism=ALL-UNNAMED</argument>
-                    </arguments>
-                </configuration>
-            </plugin>
-
-            
-            <plugin>
                 <groupId>org.openjfx</groupId>
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.8</version>
@@ -143,8 +123,13 @@
                 </executions>
                 <configuration>
                     <mainClass>geomate.Main</mainClass>
+                    <options>
+                        <option>-Dprism.order=sw</option>
+                        <option>--add-exports=javafx.graphics/com.sun.javafx.sg.prism=ALL-UNNAMED</option>
+                    </options>
                 </configuration>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
