@@ -1,14 +1,48 @@
 package geomate.controller;
 
+import geomate.Main;
+import geomate.model.Game;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import javafx.stage.Stage;
 import javafx.util.Duration;
-import geomate.Main;
 
 public class MainController {
+
+    private static Game gameInstance;
+    //private Game game;
+    private Stage primaryStage;
+
+    public MainController() {
+        // Constructor sin argumentos requerido por FXMLLoader
+    }
+/*
+    public MainController(Stage primaryStage) {
+        this.primaryStage = primaryStage;
+        List<Question> questions = QuestionManager.getAllQuestions();
+        this.game = new Game(questions);
+    }
+*/
+    public void setPrimaryStage(Stage primaryStage) {
+        this.primaryStage = primaryStage;
+    }
+
+    public void setGame(Game game) {
+        gameInstance = game;
+        //this.game = game;
+    }
+
+    public static Game getGameInstance() {
+        return gameInstance;
+    }
+
+        public Game getGame() {
+        //return this.game;
+        return gameInstance;
+    }
 
     // Anotación @FXML para que JavaFX pueda inyectar el botón desde el archivo FXML
     @FXML
@@ -31,7 +65,12 @@ public class MainController {
          * Cambia la escena actual a la escena de preguntas
          * Llama al método estático showQuestionScene() de la clase Main
          */
-        Main.showQuestionScene();
+        Main.showQuestionScene(gameInstance);
+    }
+
+    @FXML
+    private void handleExitButton() {
+        primaryStage.close();
     }
 
     // Método que anima el botón "botonDesafios" cambiando su color de fondo
@@ -48,4 +87,9 @@ public class MainController {
         // Inicia la animación
         timeline.play();
     }
+
+
+
+
+
 }

@@ -1,11 +1,15 @@
 package geomate;
 
+import geomate.controller.MainController;
+import geomate.model.Game;
+import geomate.model.Question;
+import geomate.model.QuestionManager;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import geomate.model.QuestionManager;
+import java.util.List;
 
 public class Main extends Application {
 
@@ -21,14 +25,7 @@ public class Main extends Application {
      */
     @Override
     public void start(Stage primaryStage) throws Exception {
-        /*
-         * Asigna el escenario principal a la variable estática.
-         */
         this.primaryStage = primaryStage;
-
-        /*
-         * Carga las preguntas desde un archivo JSON usando el método loadQuestionsFromFile() de QuestionManager.
-         */
         QuestionManager.loadQuestionsFromFile("/preguntas6.json");
 
         /*
@@ -45,12 +42,23 @@ public class Main extends Application {
         /*
          * Carga el archivo FXML de la escena principal.
          */
-        Parent root = FXMLLoader.load(Main.class.getResource("/fxml/MainScene.fxml"));
+        FXMLLoader loader = new FXMLLoader(Main.class.getResource("/fxml/MainScene.fxml"));
+        Parent root = loader.load();
 
         /*
          * Crea una nueva escena con el contenido cargado del archivo FXML.
          */
         Scene scene = new Scene(root);
+
+        /*
+         * Configuración del controlador después de cargar el FXML.
+         */
+        MainController controller = loader.getController();
+        controller.setPrimaryStage(primaryStage);
+
+        List<Question> questions = QuestionManager.getAllQuestions();
+        Game game = new Game(questions);
+        controller.setGame(game);
 
         /*
          * Establece el título de la ventana.
@@ -64,20 +72,24 @@ public class Main extends Application {
         primaryStage.show();
     }
 
-    /*
-     * Método estático para mostrar la escena de preguntas.
-     * @throws Exception si ocurre algún error durante la carga del archivo FXML.
-     */
-    public static void showQuestionScene() throws Exception {
-        /*
-         * Carga el archivo FXML de la escena de preguntas.
-         */
-        Parent root = FXMLLoader.load(Main.class.getResource("/fxml/QuestionScene.fxml"));
+    public static void showQuestionScene(Game game) throws Exception {
+        FXMLLoader loader = new FXMLLoader(Main.class.getResource("/fxml/QuestionScene.fxml"));
+        Parent root = loader.load();
+        geomate.controller.QuestionController controller = loader.getController();
+        controller.setGame(game);
 
         /*
          * Crea una nueva escena con el contenido cargado del archivo FXML.
          */
         Scene scene = new Scene(root);
+
+        /*
+         * Configuración del controlador después de cargar el FXML.
+         */
+
+//        MainController controller = loader.getController();
+//        controller.setPrimaryStage(primaryStage);
+//        controller.setGame(controller.getGame()); // Asegurar que el juego esté configurado
 
         /*
          * Establece el título de la ventana.

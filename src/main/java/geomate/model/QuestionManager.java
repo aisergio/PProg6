@@ -36,6 +36,15 @@ public class QuestionManager {
         }
     }
 
+
+    /*
+     * Método estático para obtener todas las preguntas cargadas desde el archivo JSON.
+     * @return una lista de preguntas.
+     */
+    public static List<Question> getAllQuestions() {
+        return new ArrayList<>(questions);
+    }
+
     /*
      * Método estático para obtener una pregunta aleatoria de la lista de preguntas.
      * @return una pregunta aleatoria de la lista.

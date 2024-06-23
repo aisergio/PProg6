@@ -24,6 +24,7 @@
 
             <!-- Botón para iniciar el desafío, con un estilo y acción definidos -->
             <Button fx:id="botonDesafios" text="INICIAR DESAFIO" onAction="#iniciarDesafio" style="-fx-background-color: #4CAF50; -fx-font-size: 20;"/>
+            <Button fx:id="exitButton" text="Terminar Juego" onAction="#handleExitButton"/>
         </VBox>
     </center>
 
