@@ -2,19 +2,24 @@ package geomate.controller;
 
 import geomate.Main;
 import geomate.model.Game;
+import geomate.model.Question;
+import geomate.model.QuestionManager;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
+import java.util.List;
+
 public class MainController {
 
+    private static final int NUM_QUESTIONS = 10;
     private static Game gameInstance;
-    //private Game game;
+    private Game game;
     private Stage primaryStage;
+    private Main mainApp;
 
     public MainController() {
         // Constructor sin argumentos requerido por FXMLLoader
@@ -30,18 +35,23 @@ public class MainController {
         this.primaryStage = primaryStage;
     }
 
+    public void setMainApp(Main mainApp) {
+        this.mainApp = mainApp;
+    }
+
     public void setGame(Game game) {
         gameInstance = game;
         //this.game = game;
     }
 
     public static Game getGameInstance() {
+        //return this.game;
         return gameInstance;
     }
 
         public Game getGame() {
-        //return this.game;
-        return gameInstance;
+        return this.game;
+        //return gameInstance;
     }
 
     // Anotación @FXML para que JavaFX pueda inyectar el botón desde el archivo FXML
@@ -58,14 +68,27 @@ public class MainController {
         animarBotonDesafio();
     }
 
-    // Método que maneja el evento de clic en el botón "botonDesafios"
+//    // Método que maneja el evento de clic en el botón "botonDesafios"
+//    @FXML
+//    private void iniciarDesafio(ActionEvent event) throws Exception {
+//        /*
+//         * Cambia la escena actual a la escena de preguntas
+//         * Llama al método estático showQuestionScene() de la clase Main
+//         */
+//        Main.showQuestionScene(gameInstance);
+//
+//    }
+
     @FXML
-    private void iniciarDesafio(ActionEvent event) throws Exception {
-        /*
-         * Cambia la escena actual a la escena de preguntas
-         * Llama al método estático showQuestionScene() de la clase Main
-         */
-        Main.showQuestionScene(gameInstance);
+    public void iniciarDesafio() {
+        List<Question> randomQuestions = QuestionManager.getRandomQuestions(10);
+        //game = new Game(randomQuestions);
+        Game game = new Game(randomQuestions);
+        try {
+            mainApp.showQuestionScene(game);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     @FXML

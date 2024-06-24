@@ -148,7 +148,7 @@ public class QuestionController {
 //    }
 
     private void updateProgress() {
-        int currentQuestionIndex = Math.min(game.getCurrentQuestionIndex(), game.getTotalQuestions() - 1) + 1; // Asegurar que el índice no supere el total de preguntas
+        int currentQuestionIndex = Math.min(game.getCurrentQuestionIndex() - 1, game.getTotalQuestions()) + 1; // Asegurar que el índice no supere el total de preguntas
         int totalQuestions = game.getTotalQuestions();
         progressLabel.setText("Progreso: " + currentQuestionIndex + "/" + totalQuestions);
     }
@@ -167,10 +167,20 @@ public class QuestionController {
         return (double) game.getCurrentQuestionIndex() / game.getTotalQuestions();
     }
 
+//    @FXML
+//    private void handleBackButton() {
+//        try {
+//            Main.showMainScene();
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//    }
+
     @FXML
     private void handleBackButton() {
         try {
-            Main.showMainScene();
+            Main mainApp = new Main();
+            mainApp.showMainScene();
         } catch (Exception e) {
             e.printStackTrace();
         }

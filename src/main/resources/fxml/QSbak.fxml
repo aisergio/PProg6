@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Define el diseño principal de la interfaz utilizando un VBox -->
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="geomate.controller.QuestionController" alignment="CENTER" spacing="20">
+
+    <!-- Label para mostrar el texto de la pregunta, con un estilo específico -->
+    <Label fx:id="questionLabel" style="-fx-font-size: 24; -fx-text-fill: #37474F;"/>
+
+    <!-- Contenedor VBox para agrupar los botones de respuesta -->
+    <VBox alignment="CENTER" spacing="10">
+        <Button fx:id="answerButton1" style="-fx-background-color: #4CAF50; -fx-font-size: 20;"/>
+        <Button fx:id="answerButton2" style="-fx-background-color: #4CAF50; -fx-font-size: 20;"/>
+        <Button fx:id="answerButton3" style="-fx-background-color: #4CAF50; -fx-font-size: 20;"/>
+        <Button fx:id="answerButton4" style="-fx-background-color: #4CAF50; -fx-font-size: 20;"/>
+    </VBox>
+
+    <!-- Contenedor VBox para agrupar el puntaje y la barra de progreso -->
+    <VBox alignment="CENTER" spacing="10">
+        <Label fx:id="scoreLabel" text="Puntaje: 0" style="-fx-font-size: 18;"/>
+        <ProgressBar fx:id="progressBar" progress="0" prefWidth="200"/>
+        <Label fx:id="progressLabel" text="Progreso: 0/10" style="-fx-font-size: 18;"/>
+    </VBox>
+
+    <!-- Botón para volver al inicio, con un estilo específico -->
+    <Button fx:id="backButton" text="Volver al Inicio" onAction="#handleBackButton" style="-fx-background-color: #FF5722; -fx-font-size: 18;"/>
+
+    <!-- Configura los márgenes interiores del VBox -->
+    <padding>
+        <Insets top="20" bottom="20" left="50" right="50"/>
+    </padding>
+</VBox>

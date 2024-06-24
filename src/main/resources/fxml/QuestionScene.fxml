@@ -18,7 +18,7 @@
     <Label fx:id="scoreLabel" text="Puntaje: 0" />
     <ProgressBar fx:id="progressBar" progress="0" />
 
-<!-- Botón para volver al inicio, con un estilo específico -->
+    <!-- Botón para volver al inicio, con un estilo específico -->
     <Label fx:id="progressLabel" text="Progreso"/>
     <!-- Botón para volver al inicio, con un estilo específico -->
     <Button fx:id="backButton" text="Volver al Inicio" onAction="#handleBackButton"/>
