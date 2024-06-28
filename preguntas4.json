@@ -1,0 +1,487 @@
+[
+  {
+    "materia": "geometria",
+    "preguntas": [
+      {
+        "enunciado": "¿Cuántos lados tiene un triángulo equilátero?",
+        "opciones": ["3", "4", "6", "5"],
+        "respuestaCorrecta": "3"
+      },
+      {
+        "enunciado": "¿Cuántos lados tiene un cuadrado?",
+        "opciones": ["3", "4", "6", "5"],
+        "respuestaCorrecta": "4"
+      },
+      {
+        "enunciado": "¿Cómo se llama un polígono de cinco lados?",
+        "opciones": ["Pentágono", "Hexágono", "Heptágono", "Octágono"],
+        "respuestaCorrecta": "Pentágono"
+      },
+      {
+        "enunciado": "¿Cuál es la suma de los ángulos internos de un triángulo?",
+        "opciones": ["180 grados", "90 grados", "270 grados", "360 grados"],
+        "respuestaCorrecta": "180 grados"
+      },
+      {
+        "enunciado": "¿Cómo se llama un ángulo que mide 90 grados?",
+        "opciones": ["Ángulo recto", "Ángulo agudo", "Ángulo obtuso", "Ángulo llano"],
+        "respuestaCorrecta": "Ángulo recto"
+      },
+      {
+        "enunciado": "¿Cuál es la fórmula para calcular el área de un triángulo?",
+        "opciones": ["(Base * Altura) / 2", "Base * Altura", "Lado * Lado", "(Diagonal mayor * Diagonal menor) / 2"],
+        "respuestaCorrecta": "(Base * Altura) / 2"
+      },
+      {
+        "enunciado": "¿Cuántas caras tiene un cubo?",
+        "opciones": ["6", "4", "8", "12"],
+        "respuestaCorrecta": "6"
+      },
+      {
+        "enunciado": "¿Cómo se llama un triángulo con todos sus lados iguales?",
+        "opciones": ["Equilátero", "Isósceles", "Escaleno", "Rectángulo"],
+        "respuestaCorrecta": "Equilátero"
+      },
+      {
+        "enunciado": "¿Cuántos vértices tiene un cubo?",
+        "opciones": ["8", "6", "12", "4"],
+        "respuestaCorrecta": "8"
+      },
+      {
+        "enunciado": "¿Cómo se llama una línea recta que divide un círculo en dos partes iguales?",
+        "opciones": ["Diámetro", "Radio", "Cuerda", "Tangente"],
+        "respuestaCorrecta": "Diámetro"
+      },
+      {
+        "enunciado": "¿Cuál es la fórmula para calcular el perímetro de un rectángulo?",
+        "opciones": ["2 * (Largo + Ancho)", "Largo * Ancho", "2 * Largo + Ancho", "Largo + Ancho"],
+        "respuestaCorrecta": "2 * (Largo + Ancho)"
+      },
+      {
+        "enunciado": "¿Cómo se llama un ángulo que mide más de 90 grados pero menos de 180 grados?",
+        "opciones": ["Ángulo obtuso", "Ángulo agudo", "Ángulo recto", "Ángulo llano"],
+        "respuestaCorrecta": "Ángulo obtuso"
+      },
+      {
+        "enunciado": "¿Cuántos lados tiene un hexágono?",
+        "opciones": ["6", "5", "7", "8"],
+        "respuestaCorrecta": "6"
+      },
+      {
+        "enunciado": "¿Cómo se llama un cuadrilátero con todos sus lados iguales y todos sus ángulos rectos?",
+        "opciones": ["Cuadrado", "Rectángulo", "Rombo", "Trapecio"],
+        "respuestaCorrecta": "Cuadrado"
+      },
+      {
+        "enunciado": "¿Cuál es la fórmula para calcular el área de un círculo?",
+        "opciones": ["π * Radio^2", "2 * π * Radio", "π * Diámetro", "Radio^2"],
+        "respuestaCorrecta": "π * Radio^2"
+      },
+      {
+        "enunciado": "¿Cómo se llama un triángulo con dos lados iguales?",
+        "opciones": ["Isósceles", "Equilátero", "Escaleno", "Rectángulo"],
+        "respuestaCorrecta": "Isósceles"
+      },
+      {
+        "enunciado": "¿Cuántos grados mide un ángulo llano?",
+        "opciones": ["180 grados", "90 grados", "270 grados", "360 grados"],
+        "respuestaCorrecta": "180 grados"
+      },
+      {
+        "enunciado": "¿Cómo se llama una línea recta que toca un círculo en un solo punto?",
+        "opciones": ["Tangente", "Radio", "Diámetro", "Cuerda"],
+        "respuestaCorrecta": "Tangente"
+      },
+      {
+        "enunciado": "¿Cuál es la fórmula para calcular el volumen de un cubo?",
+        "opciones": ["Lado^3", "Lado * Lado", "Base * Altura", "(Largo * Ancho * Altura) / 3"],
+        "respuestaCorrecta": "Lado^3"
+      },
+      {
+        "enunciado": "¿Cómo se llama un polígono de ocho lados?",
+        "opciones": ["Octágono", "Heptágono", "Hexágono", "Pentágono"],
+        "respuestaCorrecta": "Octágono"
+      },
+      {
+        "enunciado": "¿Cuál es la suma de los ángulos internos de un cuadrado?",
+        "opciones": ["360 grados", "180 grados", "90 grados", "270 grados"],
+        "respuestaCorrecta": "360 grados"
+      },
+      {
+        "enunciado": "¿Cómo se llama un ángulo que mide menos de 90 grados?",
+        "opciones": ["Ángulo agudo", "Ángulo obtuso", "Ángulo recto", "Ángulo llano"],
+        "respuestaCorrecta": "Ángulo agudo"
+      },
+      {
+        "enunciado": "¿Cuál es la fórmula para calcular el perímetro de un cuadrado?",
+        "opciones": ["4 * Lado", "Lado * Lado", "2 * Lado", "Lado + Lado"],
+        "respuestaCorrecta": "4 * Lado"
+      },
+      {
+        "enunciado": "¿Cómo se llama un triángulo con un ángulo recto?",
+        "opciones": ["Triángulo rectángulo", "Triángulo agudo", "Triángulo obtuso", "Triángulo escaleno"],
+        "respuestaCorrecta": "Triángulo rectángulo"
+      }
+    ]
+  },
+  {
+    "materia": "estadistica",
+    "preguntas": [
+      {
+        "enunciado": "¿Qué medida estadística representa mejor la tendencia central de un conjunto de datos?",
+        "opciones": ["Media", "Mediana", "Moda", "Desviación estándar"],
+        "respuestaCorrecta": "Media"
+      },
+      {
+        "enunciado": "¿Qué representa la desviación estándar en estadística?",
+        "opciones": ["Variabilidad", "Tendencia central", "Dispersión", "Correlación"],
+        "respuestaCorrecta": "Dispersión"
+      },
+      {
+        "enunciado": "¿Qué medida estadística se usa para describir la dispersión de un conjunto de datos?",
+        "opciones": ["Desviación estándar", "Media", "Mediana", "Moda"],
+        "respuestaCorrecta": "Desviación estándar"
+      },
+      {
+        "enunciado": "¿Cuál es la diferencia entre la media y la mediana?",
+        "opciones": ["La media es el promedio, mientras que la mediana es el valor del medio", "La media es el valor del medio, mientras que la mediana es el promedio", "La media se ve afectada por valores atípicos, mientras que la mediana no", "La media no se ve afectada por valores atípicos, mientras que la mediana sí"],
+        "respuestaCorrecta": "La media es el promedio, mientras que la mediana es el valor del medio"
+      },
+      {
+        "enunciado": "¿Qué es un histograma?",
+        "opciones": ["Un gráfico de barras que muestra la frecuencia de datos", "Un gráfico circular que muestra las proporciones de datos", "Un gráfico de líneas que muestra la tendencia de los datos", "Un diagrama de dispersión que muestra la relación entre dos variables"],
+        "respuestaCorrecta": "Un gráfico de barras que muestra la frecuencia de datos"
+      },
+      {
+        "enunciado": "¿Qué es la probabilidad?",
+        "opciones": ["La medida de la posibilidad de que ocurra un evento", "La frecuencia con la que ocurre un evento", "El número de veces que ocurre un evento", "La seguridad de que ocurra un evento"],
+        "respuestaCorrecta": "La medida de la posibilidad de que ocurra un evento"
+      },
+      {
+        "enunciado": "¿Qué es una variable aleatoria?",
+        "opciones": ["Una variable cuyo valor es un resultado numérico de un fenómeno aleatorio", "Una variable cuyo valor es constante", "Una variable que no se puede medir", "Una variable que solo puede tomar dos valores"],
+        "respuestaCorrecta": "Una variable cuyo valor es un resultado numérico de un fenómeno aleatorio"
+      },
+      {
+        "enunciado": "¿Qué es una distribución normal?",
+        "opciones": ["Una distribución de probabilidad simétrica en forma de campana", "Una distribución de probabilidad asimétrica", "Una distribución de probabilidad uniforme", "Una distribución de probabilidad binomial"],
+        "respuestaCorrecta": "Una distribución de probabilidad simétrica en forma de campana"
+      },
+      {
+        "enunciado": "¿Qué es un intervalo de confianza?",
+        "opciones": ["Un rango de valores que probablemente contiene el valor real de un parámetro de población", "Un valor único que estima un parámetro de población", "La probabilidad de que un evento ocurra", "La diferencia entre dos medias muestrales"],
+        "respuestaCorrecta": "Un rango de valores que probablemente contiene el valor real de un parámetro de población"
+      },
+      {
+        "enunciado": "¿Qué es una prueba de hipótesis?",
+        "opciones": ["Un procedimiento estadístico para probar una afirmación sobre una población", "Un método para recopilar datos", "Una forma de describir datos", "Una medida de la fuerza de la relación entre dos variables"],
+        "respuestaCorrecta": "Un procedimiento estadístico para probar una afirmación sobre una población"
+      },
+      {
+        "enunciado": "¿Qué es una correlación?",
+        "opciones": ["Una medida de la fuerza y dirección de la relación lineal entre dos variables", "La diferencia entre dos medias muestrales", "La probabilidad de que un evento ocurra", "Un rango de valores que probablemente contiene el valor real de un parámetro de población"],
+        "respuestaCorrecta": "Una medida de la fuerza y dirección de la relación lineal entre dos variables"
+      },
+      {
+        "enunciado": "¿Qué es una regresión?",
+        "opciones": ["Una técnica estadística para modelar la relación entre una variable dependiente y una o más variables independientes", "Un método para recopilar datos", "Una forma de describir datos", "Una medida de la fuerza de la relación entre dos variables"],
+        "respuestaCorrecta": "Una técnica estadística para modelar la relación entre una variable dependiente y una o más variables independientes"
+      },
+      {
+        "enunciado": "¿Qué es un muestreo aleatorio simple?",
+        "opciones": ["Un método de muestreo en el que cada miembro de la población tiene la misma probabilidad de ser seleccionado", "Un método de muestreo en el que los miembros de la población se seleccionan en función de su disponibilidad", "Un método de muestreo en el que los miembros de la población se seleccionan en función de las características que poseen", "Un método de muestreo en el que los miembros de la población se seleccionan al azar de grupos predefinidos"],
+        "respuestaCorrecta": "Un método de muestreo en el que cada miembro de la población tiene la misma probabilidad de ser seleccionado"
+      },
+      {
+        "enunciado": "¿Qué es un sesgo en estadística?",
+        "opciones": ["Una tendencia sistemática en los datos que lleva a una estimación inexacta de un parámetro de población", "Una variación aleatoria en los datos", "La precisión de una estimación", "La fuerza de la relación entre dos variables"],
+        "respuestaCorrecta": "Una tendencia sistemática en los datos que lleva a una estimación inexacta de un parámetro de población"
+      },
+      {
+        "enunciado": "¿Qué es una muestra representativa?",
+        "opciones": ["Una muestra que refleja con precisión las características de la población de la que se extrajo", "Una muestra que es demasiado pequeña para ser representativa", "Una muestra que se seleccionó utilizando un método de muestreo sesgado", "Una muestra que no se seleccionó al azar"],
+        "respuestaCorrecta": "Una muestra que refleja con precisión las características de la población de la que se extrajo"
+      },
+      {
+        "enunciado": "¿Qué es la varianza?",
+        "opciones": ["Una medida de la dispersión de los datos alrededor de la media", "El valor más frecuente en un conjunto de datos", "El valor del medio en un conjunto de datos", "La diferencia entre el valor más alto y el más bajo en un conjunto de datos"],
+        "respuestaCorrecta": "Una medida de la dispersión de los datos alrededor de la media"
+      },
+      {
+        "enunciado": "¿Qué es un percentil?",
+        "opciones": ["Un valor por debajo del cual se encuentra un porcentaje determinado de observaciones", "El valor más frecuente en un conjunto de datos", "El valor del medio en un conjunto de datos", "La diferencia entre el valor más alto y el más bajo en un conjunto de datos"],
+        "respuestaCorrecta": "Un valor por debajo del cual se encuentra un porcentaje determinado de observaciones"
+      },
+      {
+        "enunciado": "¿Qué es una distribución de frecuencia?",
+        "opciones": ["Una tabla que muestra la frecuencia de diferentes valores en un conjunto de datos", "Un gráfico de barras que muestra la frecuencia de datos", "Un gráfico circular que muestra las proporciones de datos", "Un gráfico de líneas que muestra la tendencia de los datos"],
+        "respuestaCorrecta": "Una tabla que muestra la frecuencia de diferentes valores en un conjunto de datos"
+      },
+      {
+        "enunciado": "¿Qué es un diagrama de caja?",
+        "opciones": ["Un gráfico que muestra la distribución de los datos mediante cuartiles", "Un gráfico de barras que muestra la frecuencia de datos", "Un gráfico circular que muestra las proporciones de datos", "Un gráfico de líneas que muestra la tendencia de los datos"],
+        "respuestaCorrecta": "Un gráfico que muestra la distribución de los datos mediante cuartiles"
+      },
+      {
+        "enunciado": "¿Qué es la covarianza?",
+        "opciones": ["Una medida de la variación conjunta de dos variables aleatorias", "La diferencia entre dos medias muestrales", "La probabilidad de que un evento ocurra", "Un rango de valores que probablemente contiene el valor real de un parámetro de población"],
+        "respuestaCorrecta": "Una medida de la variación conjunta de dos variables aleatorias"
+      },
+      {
+        "enunciado": "¿Qué es el coeficiente de correlación de Pearson?",
+        "opciones": ["Una medida de la fuerza y dirección de la relación lineal entre dos variables que varían entre -1 y 1", "La diferencia entre dos medias muestrales", "La probabilidad de que un evento ocurra", "Un rango de valores que probablemente contiene el valor real de un parámetro de población"],
+        "respuestaCorrecta": "Una medida de la fuerza y dirección de la relación lineal entre dos variables que varían entre -1 y 1"
+      },
+      {
+        "enunciado": "¿Qué es una prueba t de Student?",
+        "opciones": ["Una prueba de hipótesis que se utiliza para comparar las medias de dos grupos", "Un procedimiento estadístico para probar una afirmación sobre una población", "Un método para recopilar datos", "Una medida de la fuerza de la relación entre dos variables"],
+        "respuestaCorrecta": "Una prueba de hipótesis que se utiliza para comparar las medias de dos grupos"
+      },
+      {
+        "enunciado": "¿Qué es un análisis de varianza (ANOVA)?",
+        "opciones": ["Una prueba estadística que se utiliza para comparar las medias de tres o más grupos", "Un procedimiento estadístico para probar una afirmación sobre una población", "Un método para recopilar datos", "Una medida de la fuerza de la relación entre dos variables"],
+        "respuestaCorrecta": "Una prueba estadística que se utiliza para comparar las medias de tres o más grupos"
+      }
+    ]
+  },
+  {
+    "materia": "algebra",
+    "preguntas": [
+      {
+        "enunciado": "¿Cuál es la fórmula para calcular el área de un cuadrado?",
+        "opciones": ["Lado * Lado", "Lado * Altura", "Base * Altura", "Diagonal * Diagonal"],
+        "respuestaCorrecta": "Lado * Lado"
+      },
+      {
+        "enunciado": "¿Cuál es la fórmula general de la ecuación cuadrática?",
+        "opciones": ["ax^2 + bx + c = 0", "ax^3 + bx^2 + cx + d = 0", "ax + b = 0", "ax^2 + bx = c"],
+        "respuestaCorrecta": "ax^2 + bx + c = 0"
+      },
+      {
+        "enunciado": "¿Cómo se llama una expresión algebraica que consta de un solo término?",
+        "opciones": ["Monomio", "Binomio", "Trinomio", "Polinomio"],
+        "respuestaCorrecta": "Monomio"
+      },
+      {
+        "enunciado": "¿Qué es una ecuación lineal?",
+        "opciones": ["Una ecuación que se puede representar mediante una línea recta", "Una ecuación que contiene una variable elevada a la segunda potencia", "Una ecuación que contiene una variable elevada a la tercera potencia", "Una ecuación que no tiene solución"],
+        "respuestaCorrecta": "Una ecuación que se puede representar mediante una línea recta"
+      },
+      {
+        "enunciado": "¿Cuál es la propiedad distributiva de la multiplicación sobre la suma?",
+        "opciones": ["a(b + c) = ab + ac", "(a + b) + c = a + (b + c)", "a + b = b + a", "a * b = b * a"],
+        "respuestaCorrecta": "a(b + c) = ab + ac"
+      },
+      {
+        "enunciado": "¿Qué es un sistema de ecuaciones?",
+        "opciones": ["Un conjunto de dos o más ecuaciones que se resuelven simultáneamente", "Una ecuación que solo tiene una solución", "Una ecuación que no tiene solución", "Una ecuación que tiene infinitas soluciones"],
+        "respuestaCorrecta": "Un conjunto de dos o más ecuaciones que se resuelven simultáneamente"
+      },
+      {
+        "enunciado": "¿Cómo se llama una expresión algebraica que consta de dos términos?",
+        "opciones": ["Binomio", "Monomio", "Trinomio", "Polinomio"],
+        "respuestaCorrecta": "Binomio"
+      },
+      {
+        "enunciado": "¿Qué es una desigualdad?",
+        "opciones": ["Una relación matemática que compara dos expresiones utilizando signos como <, >, ≤ o ≥", "Una ecuación que solo tiene una solución", "Una ecuación que no tiene solución", "Una ecuación que tiene infinitas soluciones"],
+        "respuestaCorrecta": "Una relación matemática que compara dos expresiones utilizando signos como <, >, ≤ o ≥"
+      },
+      {
+        "enunciado": "¿Cuál es la fórmula para calcular el área de un rectángulo?",
+        "opciones": ["Largo * Ancho", "Lado * Lado", "(Base * Altura) / 2", "Diagonal * Diagonal"],
+        "respuestaCorrecta": "Largo * Ancho"
+      },
+      {
+        "enunciado": "¿Qué es una función?",
+        "opciones": ["Una relación matemática que asigna a cada elemento de un conjunto (dominio) un único elemento de otro conjunto (rango)", "Una ecuación que solo tiene una solución", "Una ecuación que no tiene solución", "Una ecuación que tiene infinitas soluciones"],
+        "respuestaCorrecta": "Una relación matemática que asigna a cada elemento de un conjunto (dominio) un único elemento de otro conjunto (rango)"
+      },
+      {
+        "enunciado": "¿Cuál es la pendiente de una línea recta?",
+        "opciones": ["La inclinación de la línea", "La intersección con el eje y", "La intersección con el eje x", "La longitud de la línea"],
+        "respuestaCorrecta": "La inclinación de la línea"
+      },
+      {
+        "enunciado": "¿Qué es un polinomio?",
+        "opciones": ["Una expresión algebraica que consta de uno o más términos", "Una ecuación que solo tiene una solución", "Una ecuación que no tiene solución", "Una ecuación que tiene infinitas soluciones"],
+        "respuestaCorrecta": "Una expresión algebraica que consta de uno o más términos"
+      },
+      {
+        "enunciado": "¿Cuál es el grado de un polinomio?",
+        "opciones": ["El mayor exponente de la variable en el polinomio", "El número de términos en el polinomio", "El coeficiente del término principal", "La constante en el polinomio"],
+        "respuestaCorrecta": "El mayor exponente de la variable en el polinomio"
+      },
+      {
+        "enunciado": "¿Qué es una factorización?",
+        "opciones": ["El proceso de escribir un número o expresión algebraica como producto de sus factores", "El proceso de sumar dos o más expresiones algebraicas", "El proceso de restar dos o más expresiones algebraicas", "El proceso de dividir dos o más expresiones algebraicas"],
+        "respuestaCorrecta": "El proceso de escribir un número o expresión algebraica como producto de sus factores"
+      },
+      {
+        "enunciado": "¿Cuál es la fórmula para resolver una ecuación de primer grado?",
+        "opciones": ["x = (c - b) / a", "x = -b / (2a)", "x = (-b ± √(b^2 - 4ac)) / (2a)", "x = c / a"],
+        "respuestaCorrecta": "x = (c - b) / a"
+      },
+      {
+        "enunciado": "¿Qué es una ecuación cuadrática?",
+        "opciones": ["Una ecuación que contiene una variable elevada a la segunda potencia", "Una ecuación que se puede representar mediante una línea recta", "Una ecuación que contiene una variable elevada a la tercera potencia", "Una ecuación que no tiene solución"],
+        "respuestaCorrecta": "Una ecuación que contiene una variable elevada a la segunda potencia"
+      },
+      {
+        "enunciado": "¿Cuál es la fórmula general para resolver una ecuación cuadrática?",
+        "opciones": ["x = (-b ± √(b^2 - 4ac)) / (2a)", "x = (c - b) / a", "x = -b / (2a)", "x = c / a"],
+        "respuestaCorrecta": "x = (-b ± √(b^2 - 4ac)) / (2a)"
+      },
+      {
+        "enunciado": "¿Qué es un sistema de ecuaciones lineales?",
+        "opciones": ["Un conjunto de dos o más ecuaciones lineales que se resuelven simultáneamente", "Una ecuación que solo tiene una solución", "Una ecuación que no tiene solución", "Una ecuación que tiene infinitas soluciones"],
+        "respuestaCorrecta": "Un conjunto de dos o más ecuaciones lineales que se resuelven simultáneamente"
+      },
+      {
+        "enunciado": "¿Qué es un determinante?",
+        "opciones": ["Un valor asociado a una matriz cuadrada", "Un número que indica la inclinación de una línea recta", "Un punto donde una gráfica interseca el eje x", "Un punto donde una gráfica interseca el eje y"],
+        "respuestaCorrecta": "Un valor asociado a una matriz cuadrada"
+      },
+      {
+        "enunciado": "¿Qué es una matriz?",
+        "opciones": ["Una disposición rectangular de números o expresiones algebraicas", "Una ecuación que solo tiene una solución", "Una ecuación que no tiene solución", "Una ecuación que tiene infinitas soluciones"],
+        "respuestaCorrecta": "Una disposición rectangular de números o expresiones algebraicas"
+      },
+      {
+        "enunciado": "¿Qué es un vector?",
+        "opciones": ["Una cantidad que tiene magnitud y dirección", "Un número que indica la inclinación de una línea recta", "Un punto donde una gráfica interseca el eje x", "Un punto donde una gráfica interseca el eje y"],
+        "respuestaCorrecta": "Una cantidad que tiene magnitud y dirección"
+      },
+      {
+        "enunciado": "¿Qué es un espacio vectorial?",
+        "opciones": ["Un conjunto de vectores que satisface ciertas propiedades", "Una ecuación que solo tiene una solución", "Una ecuación que no tiene solución", "Una ecuación que tiene infinitas soluciones"],
+        "respuestaCorrecta": "Un conjunto de vectores que satisface ciertas propiedades"
+      },
+      {
+        "enunciado": "¿Qué es una transformación lineal?",
+        "opciones": ["Una función que mapea vectores a otros vectores preservando las operaciones de suma de vectores y multiplicación por escalares", "Una ecuación que solo tiene una solución", "Una ecuación que no tiene solución", "Una ecuación que tiene infinitas soluciones"],
+        "respuestaCorrecta": "Una función que mapea vectores a otros vectores preservando las operaciones de suma de vectores y multiplicación por escalares"
+      }
+    ]
+  },
+  {
+    "materia": "trigonometria",
+    "preguntas": [
+      {
+        "enunciado": "¿Cuál es la función trigonométrica opuesta al seno?",
+        "opciones": ["Cosecante", "Coseno", "Tangente", "Secante"],
+        "respuestaCorrecta": "Cosecante"
+      },
+      {
+        "enunciado": "¿Cuál es la relación fundamental de la trigonometría?",
+        "opciones": ["Seno^2 + Coseno^2 = 1", "Seno * Coseno = 1", "Tangente = Seno / Coseno", "Coseno / Seno = Tangente"],
+        "respuestaCorrecta": "Seno^2 + Coseno^2 = 1"
+      },
+      {
+        "enunciado": "¿Cuál es la función trigonométrica opuesta al coseno?",
+        "opciones": ["Secante", "Seno", "Tangente", "Cotangente"],
+        "respuestaCorrecta": "Secante"
+      },
+      {
+        "enunciado": "¿Cuál es la función trigonométrica opuesta a la tangente?",
+        "opciones": ["Cotangente", "Seno", "Coseno", "Secante"],
+        "respuestaCorrecta": "Cotangente"
+      },
+      {
+        "enunciado": "¿En qué cuadrante el seno es positivo y el coseno es negativo?",
+        "opciones": ["Segundo cuadrante", "Primer cuadrante", "Tercer cuadrante", "Cuarto cuadrante"],
+        "respuestaCorrecta": "Segundo cuadrante"
+      },
+      {
+        "enunciado": "¿Cuál es el valor de sen(30°)?",
+        "opciones": ["1/2", "√3/2", "1", "0"],
+        "respuestaCorrecta": "1/2"
+      },
+      {
+        "enunciado": "¿Cuál es el valor de cos(60°)?",
+        "opciones": ["1/2", "√3/2", "1", "0"],
+        "respuestaCorrecta": "1/2"
+      },
+      {
+        "enunciado": "¿Cuál es el valor de tan(45°)?",
+        "opciones": ["1", "√3", "1/√3", "0"],
+        "respuestaCorrecta": "1"
+      },
+      {
+        "enunciado": "¿Cuál es la fórmula del seno de la suma de dos ángulos?",
+        "opciones": ["sen(α + β) = sen(α)cos(β) + cos(α)sen(β)", "sen(α + β) = sen(α)sen(β) + cos(α)cos(β)", "sen(α + β) = sen(α)cos(β) - cos(α)sen(β)", "sen(α + β) = cos(α)cos(β) - sen(α)sen(β)"],
+        "respuestaCorrecta": "sen(α + β) = sen(α)cos(β) + cos(α)sen(β)"
+      },
+      {
+        "enunciado": "¿Cuál es la fórmula del coseno de la diferencia de dos ángulos?",
+        "opciones": ["cos(α - β) = cos(α)cos(β) + sen(α)sen(β)", "cos(α - β) = cos(α)cos(β) - sen(α)sen(β)", "cos(α - β) = sen(α)cos(β) + cos(α)sen(β)", "cos(α - β) = sen(α)sen(β) - cos(α)cos(β)"],
+        "respuestaCorrecta": "cos(α - β) = cos(α)cos(β) + sen(α)sen(β)"
+      },
+      {
+        "enunciado": "¿Cuál es la ley de los senos?",
+        "opciones": ["a/sen(A) = b/sen(B) = c/sen(C)", "a^2 = b^2 + c^2 - 2bc*cos(A)", "c^2 = a^2 + b^2", "tan(A) = a/b"],
+        "respuestaCorrecta": "a/sen(A) = b/sen(B) = c/sen(C)"
+      },
+      {
+        "enunciado": "¿Cuál es la ley de los cosenos?",
+        "opciones": ["a^2 = b^2 + c^2 - 2bc*cos(A)", "a/sen(A) = b/sen(B) = c/sen(C)", "c^2 = a^2 + b^2", "tan(A) = a/b"],
+        "respuestaCorrecta": "a^2 = b^2 + c^2 - 2bc*cos(A)"
+      },
+      {
+        "enunciado": "¿Cuál es la identidad trigonométrica para tan(α) en términos de seno y coseno?",
+        "opciones": ["tan(α) = sen(α)/cos(α)", "tan(α) = cos(α)/sen(α)", "tan(α) = 1/sen(α)", "tan(α) = 1/cos(α)"],
+        "respuestaCorrecta": "tan(α) = sen(α)/cos(α)"
+      },
+      {
+        "enunciado": "¿Cuál es la identidad trigonométrica para cot(α) en términos de seno y coseno?",
+        "opciones": ["cot(α) = cos(α)/sen(α)", "cot(α) = sen(α)/cos(α)", "cot(α) = 1/sen(α)", "cot(α) = 1/cos(α)"],
+        "respuestaCorrecta": "cot(α) = cos(α)/sen(α)"
+      },
+      {
+        "enunciado": "¿Cuál es el período de la función y = sen(x)?",
+        "opciones": ["2π", "π", "π/2", "π/4"],
+        "respuestaCorrecta": "2π"
+      },
+      {
+        "enunciado": "¿Cuál es el período de la función y = cos(x)?",
+        "opciones": ["2π", "π", "π/2", "π/4"],
+        "respuestaCorrecta": "2π"
+      },
+      {
+        "enunciado": "¿Cuál es el período de la función y = tan(x)?",
+        "opciones": ["π", "2π", "π/2", "π/4"],
+        "respuestaCorrecta": "π"
+      },
+      {
+        "enunciado": "¿Cuál es la amplitud de la función y = 2sen(x)?",
+        "opciones": ["2", "1", "π", "2π"],
+        "respuestaCorrecta": "2"
+      },
+      {
+        "enunciado": "¿Cuál es la amplitud de la función y = -cos(x)?",
+        "opciones": ["1", "-1", "π", "2π"],
+        "respuestaCorrecta": "1"
+      },
+      {
+        "enunciado": "¿Cuál es el ángulo de referencia para 150°?",
+        "opciones": ["30°", "60°", "45°", "90°"],
+        "respuestaCorrecta": "30°"
+      },
+      {
+        "enunciado": "¿Cuál es el ángulo de referencia para -45°?",
+        "opciones": ["45°", "30°", "60°", "90°"],
+        "respuestaCorrecta": "45°"
+      },
+      {
+        "enunciado": "¿Cuál es la identidad trigonométrica para sen(2α)?",
+        "opciones": ["sen(2α) = 2sen(α)cos(α)", "sen(2α) = cos^2(α) - sen^2(α)", "sen(2α) = 1 - 2sen^2(α)", "sen(2α) = 2cos^2(α) - 1"],
+        "respuestaCorrecta": "sen(2α) = 2sen(α)cos(α)"
+      },
+      {
+        "enunciado": "¿Cuál es la identidad trigonométrica para cos(2α)?",
+        "opciones": ["cos(2α) = cos^2(α) - sen^2(α)", "cos(2α) = 2sen(α)cos(α)", "cos(2α) = 1 - 2sen^2(α)", "cos(2α) = 2cos^2(α) - 1"],
+        "respuestaCorrecta": "cos(2α) = cos^2(α) - sen^2(α)"
+      }
+    ]
+  }
+]

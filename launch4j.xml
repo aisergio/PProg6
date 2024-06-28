@@ -1,0 +1,29 @@
+<launch4jConfig>
+    <outfile>target/PProg6.exe</outfile>
+    <jar>target/PProg6-1.0-SNAPSHOT.jar</jar>
+    <dontWrapJar>false</dontWrapJar>
+    <headerType>gui</headerType>
+    <jarOptions>
+        <mainClass>geomate.Main</mainClass>
+    </jarOptions>
+    <jre>
+        <path>%JAVA_HOME%</path>
+        <minVersion>11</minVersion>
+        <maxVersion>21</maxVersion>
+        <requires64Bit>true</requires64Bit>
+    </jre>
+    <versionInfo>
+        <fileVersion>1.0.0.0</fileVersion>
+        <txtFileVersion>1.0.0.0</txtFileVersion>
+        <productVersion>1.0.0.0</productVersion>
+        <txtProductVersion>1.0.0.0</txtProductVersion>
+        <fileDescription>PProg6 Game</fileDescription>
+        <productName>PProg6</productName>
+        <internalName>PProg6</internalName>
+        <originalFilename>PProg6.exe</originalFilename>
+        <companyName>Default organization</companyName>
+        <legalCopyright>2024</legalCopyright>
+        <legalTrademarks>Default organization</legalTrademarks>
+    </versionInfo>
+    <icon>src/main/resources/icon.ico</icon>
+</launch4jConfig>

@@ -1,0 +1,52 @@
+[
+  {
+    "questionText": "¿Cuántos lados tiene un triángulo equilátero?",
+    "answers": ["3", "4", "5", "6"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuántos lados tiene un cuadrado?",
+    "answers": ["3", "4", "5", "6"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "questionText": "¿Cuál es la suma de los ángulos internos de un triángulo?",
+    "answers": ["90 grados", "180 grados", "270 grados", "360 grados"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "questionText": "¿Cómo se llama un polígono de cinco lados?",
+    "answers": ["Pentágono", "Hexágono", "Heptágono", "Octágono"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "questionText": "¿Cuántas caras tiene un cubo?",
+    "answers": ["4", "6", "8", "12"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "questionText": "¿Cómo se llama una línea recta que divide un círculo en dos partes iguales?",
+    "answers": ["Radio", "Cuerda", "Diámetro", "Tangente"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "questionText": "¿Cuál es la fórmula para calcular el área de un triángulo?",
+    "answers": ["Base * Altura", "(Base * Altura) / 2", "Lado * Lado", "Base * Altura * 2"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "questionText": "¿Cuántos vértices tiene un cubo?",
+    "answers": ["4", "6", "8", "12"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "questionText": "¿Cómo se llama un triángulo con todos sus lados iguales?",
+    "answers": ["Isósceles", "Equilátero", "Escaleno", "Rectángulo"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "questionText": "¿Cuál es la fórmula para calcular el perímetro de un rectángulo?",
+    "answers": ["Largo + Ancho", "2 * (Largo + Ancho)", "Largo * Ancho", "Lado * 4"],
+    "correctAnswerIndex": 1
+  }
+]
